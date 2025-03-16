@@ -41,7 +41,7 @@ This starts a PostgreSQL container with authentication settings.
 ## 💊 Creating and Populating the Database
 ### Step 4: Access PostgreSQL
 ```sh
-docker exec -it my_postgres_container psql -U vidhi -d testdb
+docker exec -it my_postgres_container psql -U sejal -d testdb
 ```
 
 ### Step 5: Create the `passengers` Table
@@ -56,8 +56,8 @@ CREATE TABLE passengers (
 ### Step 6: Insert Sample Data
 ```sql
 INSERT INTO passengers (name, location) VALUES
-('Vidhi', 'Pathankot'),
-('Aryan', 'Jind'),
+('Sejal', 'Mussoorie'),
+('Shruti', 'Jind'),
 ('Coach Saab', 'Atta');
 ```
 
