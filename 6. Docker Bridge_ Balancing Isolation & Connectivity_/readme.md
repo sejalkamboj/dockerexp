@@ -105,7 +105,7 @@ docker exec -it sejal-database ping 172.17.0.2
 docker network inspect sejal-bridge
 docker network inspect bridge
 ```
-✅ `vidhi-bridge` should contain `sejal-database` & `sejal-server-A`.
+✅ `sejal-bridge` should contain `sejal-database` & `sejal-server-A`.
 ✅ `bridge` should contain `sejal-server-B`.
 
 ---
